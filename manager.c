@@ -53,7 +53,7 @@ int loadData(Product *p){
 	int count=0;
 	FILE*fp;
 
-/*
+
 	//파일 내용을 읽어와서 배열에 값 추가하기
 	if (access ("product.txt", F_OK) != -1){
 	fp = fopen("product.txt", "rt");
@@ -66,7 +66,6 @@ int loadData(Product *p){
 	}
 
 	fclose(fp);
-*/
 	printf("=> 로딩 성공!\n");
 	return count;
 }
